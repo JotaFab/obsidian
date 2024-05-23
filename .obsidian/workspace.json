@@ -1,76 +1,39 @@
 {
   "main": {
-    "id": "a4fa0f22db2f7202",
+    "id": "1c28263ce3cd8e00",
     "type": "split",
     "children": [
       {
-        "id": "10fe62461c5447ee",
+        "id": "646d3e29ca6419ae",
         "type": "tabs",
         "children": [
           {
-            "id": "51ea11af07c7af26",
+            "id": "cfb10c564e61127b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mailing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c86f8df59f38e6bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5108fb594b6e08a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "swagshop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bfd220f1b86e251f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "netmon.md",
+                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4d6d9f55424223e2",
+    "id": "be94cc0f4c5ee858",
     "type": "split",
     "children": [
       {
-        "id": "2b9408f06acabf8c",
+        "id": "feee18e2ca756fc7",
         "type": "tabs",
         "children": [
           {
-            "id": "ca4e6ae266c963c9",
+            "id": "2d64dcd11d2a476d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +43,7 @@
             }
           },
           {
-            "id": "1a1bc58c6a890b65",
+            "id": "7973205eaacfb9ef",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +58,7 @@
             }
           },
           {
-            "id": "f150e3eead1449c5",
+            "id": "d2da781671ebf45e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -106,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "a5e20aeb48801b2c",
+    "id": "c140ddb3eb59ef9b",
     "type": "split",
     "children": [
       {
-        "id": "cc01b49b350773f6",
+        "id": "19051f958e6d4eff",
         "type": "tabs",
         "children": [
           {
-            "id": "672aac1821765190",
+            "id": "522de8cb24e1da05",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "netmon.md",
+                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,19 +97,19 @@
             }
           },
           {
-            "id": "8fb9c9f48dfa4ff0",
+            "id": "bbb36ff5c5504eac",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "netmon.md",
+                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f1463de860e62fec",
+            "id": "9707a036a0179d1a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -158,12 +120,12 @@
             }
           },
           {
-            "id": "8dd409e061b12e2d",
+            "id": "552fc90c7a37eb44",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "netmon.md"
+                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md"
               }
             }
           }
@@ -184,18 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfd220f1b86e251f",
+  "active": "cfb10c564e61127b",
   "lastOpenFiles": [
-    "netmon.md",
-    "swagshop.md",
-    "Pasted image 20240521183012.png",
-    "Pasted image 20240521182554.png",
-    "Pasted image 20240521182511.png",
-    "Pasted image 20240521182507.png",
-    "Pasted image 20240521182340.png",
-    "Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
-    "mailing.md",
-    "smb.md",
-    "Welcome.md"
+    "jotafab/swagshop.md",
+    "jotafab/smb.md",
+    "jotafab/mailing.md",
+    "jotafab/netmon.md",
+    "jotafab/Pasted image 20240521182340.png",
+    "jotafab/Pasted image 20240521182507.png",
+    "jotafab/Pasted image 20240521183012.png",
+    "jotafab/Pasted image 20240521182554.png"
   ]
 }
