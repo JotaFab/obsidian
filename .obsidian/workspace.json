@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+                "file": "jotafab/smb.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64f38be853145789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/IMAP,POP3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+                "file": "Notas/IMAP,POP3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+                "file": "Notas/IMAP,POP3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md"
+                "file": "Notas/IMAP,POP3.md"
               }
             }
           }
@@ -146,13 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfb10c564e61127b",
+  "active": "2d64dcd11d2a476d",
   "lastOpenFiles": [
-    "jotafab/swagshop.md",
     "jotafab/smb.md",
-    "jotafab/mailing.md",
+    "Notas/IMAP,POP3.md",
     "jotafab/netmon.md",
+    "Notas",
+    "Diraisiel",
     "jotafab/Pasted image 20240521182340.png",
+    "jotafab/mailing.md",
+    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+    "jotafab/swagshop.md",
     "jotafab/Pasted image 20240521182507.png",
     "jotafab/Pasted image 20240521183012.png",
     "jotafab/Pasted image 20240521182554.png"
