@@ -69,4 +69,4 @@ Connection: close
 Cookie: adminhtml=m5h37t2sr8ss3n5s2gv6cq8vo4
 
 [[retired]]
-[[htb]]
+[[HTB machines]]

@@ -25,14 +25,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Notas/IMAP,POP3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bbcec2741f4aa87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2cd12d2d934a798e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "search operators engines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dcc6869e89796db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/mailing.htb.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+                "file": "HTB/mailing.htb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+                "file": "HTB/mailing.htb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +174,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md"
+                "file": "HTB/mailing.htb.md"
               }
             }
+          },
+          {
+            "id": "5468a41b6843403e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,17 +203,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64f38be853145789",
+  "active": "2d64dcd11d2a476d",
   "lastOpenFiles": [
+    "HTB/HTB machines.md",
+    "HTB/mailing.htb.md",
+    "2024-07-17.md",
+    "HTB/office.htb.md",
+    "HTB/swagshop.htb.md",
+    "Pasted image 20240717223654.png",
+    "Untitled.canvas",
+    "search operators engines.md",
+    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
     "Notas/IMAP,POP3.md",
     "jotafab/smb.md",
+    "Pasted image 20240717221337.png",
     "jotafab/netmon.md",
+    "Web Reconnaissance.md",
+    "HTB",
+    "google search.md",
     "Notas",
     "Diraisiel",
     "jotafab/Pasted image 20240521182340.png",
-    "jotafab/mailing.md",
-    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
-    "jotafab/swagshop.md",
     "jotafab/Pasted image 20240521182507.png",
     "jotafab/Pasted image 20240521183012.png",
     "jotafab/Pasted image 20240521182554.png"

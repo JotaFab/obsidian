@@ -35,6 +35,7 @@ impacket-wmiexec localadmin@<box-ip> -hashes "<hashes>"
 ```
 
 [[smb]]
-[[mailing]]
-[[htb]]
+[[mailing.htb]]
+[[HTB machines]]
+
 [[windows]]
