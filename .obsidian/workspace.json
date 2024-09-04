@@ -8,127 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cfb10c564e61127b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jotafab/smb.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64f38be853145789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/IMAP,POP3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bbcec2741f4aa87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cd12d2d934a798e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "search operators engines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dcc6869e89796db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/office.htb.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb1bd44cdf53d981",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/office.htb.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15727cb78e5f6a6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vulnerability assesment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fafafa2274ab8d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CVSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2cb79d5bbee6c87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CVE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d4b7acb6d2e46eb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Canciones para aprender.md",
+                "file": "HTB/Academy/CVE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d5c75dbea5316bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Academy/IMAP,POP3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccb29e708cbbd401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "windows file transfer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b23c74725aaa8285",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e3a07f6109b11f6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -174,12 +110,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c140ddb3eb59ef9b",
@@ -195,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canciones para aprender.md",
+                "file": "XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canciones para aprender.md",
+                "file": "XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canciones para aprender.md"
+                "file": "XSS.md"
               }
             }
           },
@@ -248,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 425.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -265,36 +201,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4b7acb6d2e46eb2",
+  "active": "e3a07f6109b11f6e",
   "lastOpenFiles": [
-    "Canciones para aprender.md",
-    "CVE.md",
-    "Pasted image 20240724165311.png",
-    "Pasted image 20240724165148.png",
-    "CVSS.md",
-    "Pasted image 20240724130307.png",
-    "Pasted image 20240724130247.png",
-    "Vulnerability assesment.md",
-    "Pasted image 20240723161135.png",
-    "Pasted image 20240723161121.png",
-    "Pasted image 20240723161042.png",
-    "HTB/office.htb.md",
-    "Pasted image 20240718220418.png",
-    "Pasted image 20240718220256.png",
-    "Pasted image 20240718220230.png",
     "HTB/HTB machines.md",
     "HTB/mailing.htb.md",
-    "2024-07-17.md",
+    "HTB/office.htb.md",
     "HTB/swagshop.htb.md",
-    "Untitled.canvas",
-    "search operators engines.md",
-    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
     "Notas/IMAP,POP3.md",
-    "jotafab/smb.md",
-    "jotafab/netmon.md",
     "Web Reconnaissance.md",
-    "HTB",
+    "Vulnerability assesment.md",
+    "search operators engines.md",
+    "CVSS.md",
+    "CVE.md",
+    "Canciones para aprender.md",
+    "XSS.md",
+    "windows file transfer.md",
+    "HTB/Academy/IMAP,POP3.md",
+    "HTB/Academy/CVSS.md",
+    "flaca andres calamaro.md",
+    "Notas/Canciones para aprender.md",
+    "Notas/fotografia juanes.md",
+    "jotafab/smb.md",
+    "jotafab/Pasted image 20240521183012.png",
+    "jotafab/Pasted image 20240521182554.png",
+    "jotafab/Pasted image 20240521182507.png",
+    "jotafab/Pasted image 20240521182340.png",
+    "jotafab/netmon.md",
+    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+    "2024-07-17.md",
+    "HTB/Academy/CVE.md",
     "google search.md",
+    "Pasted image 20240724165311.png",
+    "Untitled.canvas",
+    "HTB/Academy/search operators engines.md",
+    "HTB/Academy",
+    "HTB/Machines",
+    "HTB/Academy/Vulnerability assesment.md",
+    "Pasted image 20240724165148.png",
+    "Pasted image 20240724130307.png",
+    "Pasted image 20240724130247.png",
+    "Pasted image 20240723161135.png",
+    "Pasted image 20240723161121.png",
+    "HTB",
     "Notas",
     "Diraisiel"
   ]
