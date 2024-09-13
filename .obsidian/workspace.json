@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4b7acb6d2e46eb2",
+            "id": "b23c74725aaa8285",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Academy/CVE.md",
+                "file": "XSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8d5c75dbea5316bc",
+            "id": "e3a07f6109b11f6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,39 +32,19 @@
             }
           },
           {
-            "id": "ccb29e708cbbd401",
+            "id": "a701086987717a15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows file transfer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b23c74725aaa8285",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e3a07f6109b11f6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "XSS.md",
+                "file": "HTB/Machines/office.htb.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CVE",
+                "query": "kerb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,12 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c140ddb3eb59ef9b",
@@ -131,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS.md",
+                "file": "HTB/Machines/office.htb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XSS.md",
+                "file": "HTB/Machines/office.htb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XSS.md"
+                "file": "HTB/Machines/office.htb.md"
               }
             }
           },
@@ -201,12 +181,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3a07f6109b11f6e",
+  "active": "7973205eaacfb9ef",
   "lastOpenFiles": [
-    "HTB/HTB machines.md",
-    "HTB/mailing.htb.md",
-    "HTB/office.htb.md",
+    "Injections.md",
+    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
+    "jotafab/netmon.md",
+    "SQL injections.md",
     "HTB/swagshop.htb.md",
+    "HTB/office.htb.md",
+    "HTB/mailing.htb.md",
+    "HTB/HTB machines.md",
+    "XSS.md",
+    "windows file transfer.md",
+    "HTB/Academy/IMAP,POP3.md",
+    "HTB/Academy/CVE.md",
     "Notas/IMAP,POP3.md",
     "Web Reconnaissance.md",
     "Vulnerability assesment.md",
@@ -214,9 +202,6 @@
     "CVSS.md",
     "CVE.md",
     "Canciones para aprender.md",
-    "XSS.md",
-    "windows file transfer.md",
-    "HTB/Academy/IMAP,POP3.md",
     "HTB/Academy/CVSS.md",
     "flaca andres calamaro.md",
     "Notas/Canciones para aprender.md",
@@ -226,17 +211,12 @@
     "jotafab/Pasted image 20240521182554.png",
     "jotafab/Pasted image 20240521182507.png",
     "jotafab/Pasted image 20240521182340.png",
-    "jotafab/netmon.md",
-    "jotafab/Explaining Common Attacks and Vulnerabilities Against Specialized Systems.md",
     "2024-07-17.md",
-    "HTB/Academy/CVE.md",
     "google search.md",
     "Pasted image 20240724165311.png",
     "Untitled.canvas",
-    "HTB/Academy/search operators engines.md",
     "HTB/Academy",
     "HTB/Machines",
-    "HTB/Academy/Vulnerability assesment.md",
     "Pasted image 20240724165148.png",
     "Pasted image 20240724130307.png",
     "Pasted image 20240724130247.png",
