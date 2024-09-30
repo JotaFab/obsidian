@@ -1,0 +1,1 @@
+**to engineer (something, such as a product) to have more functions, capabilities, etc.** **than are necessary or desirable**.

