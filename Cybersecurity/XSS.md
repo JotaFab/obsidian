@@ -1,3 +1,9 @@
+---
+id: XSS
+aliases: []
+tags: []
+---
+
 ### Input Sanitization
 ```javascript
 <script type="text/javascript" src="dist/purify.min.js"></script>
@@ -5,7 +11,14 @@ let clean = DOMPurify.sanitize( dirty );
 ```
 
 https://github.com/cure53/DOMPurify
+
+```javascript
+import DOMPurify from 'dompurify';
+var clean = DOMPurify.sanitize(dirty);
+```
+
 ## Input Validation
+
 ```javascript
 function validateEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -28,14 +41,6 @@ type User struct {
      Address string `json:"address" validate:"nonzero"`
 }
 ```
-
-### Input Sanitization
-
-```javascript
-import DOMPurify from 'dompurify';
-var clean = DOMPurify.sanitize(dirty);
-```
-
 ### Output HTML Encoding
 
 ```php
