@@ -83,3 +83,74 @@ A common file upload attack uses a malicious string for the uploaded file name, 
 For example, if we name a file file$(whoami).jpg or file`whoami`.jpg or file.jpg||whoami, and then the web application attempts to move the uploaded file with an OS command (e.g. mv file /tmp), then our file name would inject the whoami command, which would get executed, leading to remote code execution. You may refer to the Command Injections module for more information.
 
 Similarly, we may use an XSS payload in the file name (e.g. <script>alert(window.origin);</script>), which would get executed on the target's machine if the file name is displayed to them. We may also inject an SQL query in the file name (e.g. file';select+sleep(5);--.jpg), which may lead to an SQL injection if the file name is insecurely used in an SQL query.
+
+## Upload Directory 
+
+Sometimes we may not have acces to the link of our uploaded file and may not know the uploads directory. In such cases, we may utilize [[Fuzzing]] to look for the uploads directory or other vulnerabiliies
+
+
+## [[Windows]]-specific Attacks
+
+We can also use a few Windows-Specific techniques in some of the attacks we discussed in the previous sections.
+
+One such attack is using reserved characters, such as (|, <, >, *, or ?), which are usually reserved for special uses like wildcards. If the web application does not properly sanitize these names or wrap them within quotes, they may refer to another file (which may not exist) and cause an error that discloses the upload directory. Similarly, we may use Windows reserved names for the uploaded file name, like (CON, COM1, LPT1, or NUL), which may also cause an error as the web application will not be allowed to write a file with this name.
+
+Finally, we may utilize the Windows 8.3 Filename Convention to overwrite existing files or refer to files that do not exist. Older versions of Windows were limited to a short length for file names, so they used a Tilde character (~) to complete the file name, which we can use to our advantage.
+
+
+## Advanced File Upload Attacks
+
+In addition to all of the attacks we have discussed in this module, there are more advanced attacks that can be used with file upload functionalities. Any automatic processing that occurs to an uploaded file, like encoding a video, compressing a file, or renaming a file, may be exploited if not securely coded.
+
+Some commonly used libraries may have public exploits for such vulnerabilities, like the AVI upload vulnerability leading to XXE in ffmpeg. However, when dealing with custom code and custom libraries, detecting such vulnerabilities requires more advanced knowledge and techniques, which may lead to discovering an advanced file upload vulnerability in some web applications.
+## Preventing File Upload Vulnerabilities
+
+### Extension validation
+
+```php
+$fileName = basename($_FILES["uploadFile"]["name"]);
+
+// blacklist test
+if (preg_match('/^.+\.ph(p|ps|ar|tml)/', $fileName)) {
+    echo "Only images are allowed";
+    die();
+}
+
+// whitelist test
+if (!preg_match('/^.*\.(jpg|jpeg|png|gif)$/', $fileName)) {
+    echo "Only images are allowed";
+    die();
+}
+```
+### Content validation
+
+```php
+$fileName = basename($_FILES["uploadFile"]["name"]);
+$contentType = $_FILES['uploadFile']['type'];
+$MIMEtype = mime_content_type($_FILES['uploadFile']['tmp_name']);
+
+// whitelist test
+if (!preg_match('/^.*\.png$/', $fileName)) {
+    echo "Only PNG images are allowed";
+    die();
+}
+
+// content test
+foreach (array($contentType, $MIMEtype) as $type) {
+    if (!in_array($type, array('image/png'))) {
+        echo "Only PNG images are allowed";
+        die();
+    }
+}
+```
+
+If we utilize a download page, we should make sure that the download.php script only grants access to files owned by the users (i.e., avoid IDOR/LFI vulnerabilities) and that the users do not have direct access to the uploads directory (i.e., 403 error). This can be achieved by utilizing the Content-Disposition and nosniff headers and using an accurate Content-Type header.
+
+### Furter security
+
+- Limit file size
+- Update any used libraries
+- Scan uploaded files for malware or malicious strings
+- Utilize a Web Application Firewall (WAF) as a secondary layer of protection
+
+

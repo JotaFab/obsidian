@@ -1,3 +1,9 @@
+---
+id: Cybersecurity
+aliases: []
+tags: []
+---
+
 
 Cybersecurity refers to the practice of protecting systems, networks, and data from digital attacks, unauthorized access, and damage. Its primary goal is to safeguard information and ensure the confidentiality, integrity, and availability (often referred to as the CIA triad) of data. Cybersecurity measures are designed to defend against a variety of threats, such as malware, phishing, ransomware, denial-of-service attacks, and hacking.
 
@@ -27,6 +33,8 @@ Securing software and applications by addressing vulnerabilities in code, using 
 [[LFI]]
 [[SQL injections]]
 [[OWASP top 10]]
+[[File Upload Attacks]]
+
 
 ### Endpoint Security 
 Protecting individual devices such as computers, phones, and tablets from threats, often using antivirus, anti-malware software, and device management systems.
