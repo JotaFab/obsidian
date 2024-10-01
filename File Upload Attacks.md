@@ -83,3 +83,14 @@ A common file upload attack uses a malicious string for the uploaded file name, 
 For example, if we name a file file$(whoami).jpg or file`whoami`.jpg or file.jpg||whoami, and then the web application attempts to move the uploaded file with an OS command (e.g. mv file /tmp), then our file name would inject the whoami command, which would get executed, leading to remote code execution. You may refer to the Command Injections module for more information.
 
 Similarly, we may use an XSS payload in the file name (e.g. <script>alert(window.origin);</script>), which would get executed on the target's machine if the file name is displayed to them. We may also inject an SQL query in the file name (e.g. file';select+sleep(5);--.jpg), which may lead to an SQL injection if the file name is insecurely used in an SQL query.
+
+## Upload Directory 
+
+Sometimes we may not have acces to the link of our uploaded file and may not know the uploads directory. In such cases, we may utilize [[Fuzzing]] to look for the uploads directory or other vulnerabiliies
+
+
+## [[Windows]]-specific Attacks
+
+
+
+
