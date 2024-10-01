@@ -91,6 +91,7 @@ Sometimes we may not have acces to the link of our uploaded file and may not kno
 
 ## [[Windows]]-specific Attacks
 
+
 We can also use a few Windows-Specific techniques in some of the attacks we discussed in the previous sections.
 
 One such attack is using reserved characters, such as (|, <, >, *, or ?), which are usually reserved for special uses like wildcards. If the web application does not properly sanitize these names or wrap them within quotes, they may refer to another file (which may not exist) and cause an error that discloses the upload directory. Similarly, we may use Windows reserved names for the uploaded file name, like (CON, COM1, LPT1, or NUL), which may also cause an error as the web application will not be allowed to write a file with this name.
