@@ -15,7 +15,7 @@ Cybersecurity is critical in today’s digital world to prevent financial loss, 
 
 ### Network Security
 Protecting internal networks from intrusions by implementing technologies like firewalls, intrusion detection systems (IDS), and encryption.
-
+[[Ports]]
 [[IDS]]
 [[Nmap]]
 [[Encryption]]
@@ -23,7 +23,7 @@ Protecting internal networks from intrusions by implementing technologies like f
 
 ### Information Security
 Ensuring that data is protected from unauthorized access, modification, or destruction, typically through policies and tools that enforce proper handling and encryption of sensitive information.
-
+[[Policies]]
 [[Databases]]
 
 
