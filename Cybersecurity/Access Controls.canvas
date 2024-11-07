@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"fe9e852960b49a53","type":"text","text":"[[Mandatory Access Control(MAC)]]","x":-360,"y":-377,"width":305,"height":74,"color":"1"},
+		{"id":"f9796d9328e26072","type":"text","text":"[[Role-based Access Control(RBAC)]]","x":-360,"y":-255,"width":305,"height":74,"color":"1"},
+		{"id":"4e286d8a7de428b8","type":"text","text":"[[Discretionary Access Control(MAC)]]","x":-360,"y":-108,"width":305,"height":74,"color":"1"},
+		{"id":"80f5478e89a283f9","type":"text","text":"[[Rule-Based Access Control]]","x":-360,"y":14,"width":305,"height":74,"color":"1"},
+		{"id":"be14d79acddf644d","type":"file","file":"imgs/Pasted image 20241016113626.png","x":544,"y":-335,"width":488,"height":140},
+		{"id":"b9c3048a755f7132","type":"text","text":"access control based on the position an individual fills in an organization.","x":81,"y":-315,"width":342,"height":122},
+		{"id":"e1ffbcf66d7a10e4","type":"file","file":"imgs/Pasted image 20241016113553.png","x":630,"y":-160,"width":318,"height":172},
+		{"id":"c088a71ee552b30c","type":"file","file":"imgs/Pasted image 20241016113533.png","x":105,"y":50,"width":490,"height":150},
+		{"id":"6c0be449c895abd0","type":"text","text":"DAC allows an individual complete control over any objects they own along with the programs associated with those objects.","x":79,"y":-134,"width":465,"height":122},
+		{"id":"f1fd395cb0ab4b47","type":"text","text":"level of clarividence","x":79,"y":-459,"width":269,"height":61},
+		{"id":"90c612898877e792","type":"file","file":"imgs/Pasted image 20241016113705.png","x":520,"y":-503,"width":342,"height":151}
+	],
+	"edges":[
+		{"id":"3bb6bb5f9eff0299","fromNode":"fe9e852960b49a53","fromSide":"right","toNode":"f1fd395cb0ab4b47","toSide":"left"},
+		{"id":"cf32f446c66300ee","fromNode":"f9796d9328e26072","fromSide":"right","toNode":"b9c3048a755f7132","toSide":"left"},
+		{"id":"361b604e094ede27","fromNode":"4e286d8a7de428b8","fromSide":"right","toNode":"6c0be449c895abd0","toSide":"left"},
+		{"id":"8d1acdf77dca1832","fromNode":"6c0be449c895abd0","fromSide":"right","toNode":"e1ffbcf66d7a10e4","toSide":"left"},
+		{"id":"288b23342e6e438f","fromNode":"80f5478e89a283f9","fromSide":"right","toNode":"c088a71ee552b30c","toSide":"left"},
+		{"id":"12d9f9f1c337da4f","fromNode":"b9c3048a755f7132","fromSide":"right","toNode":"be14d79acddf644d","toSide":"left"},
+		{"id":"8a98b8f0151ace4f","fromNode":"f1fd395cb0ab4b47","fromSide":"right","toNode":"90c612898877e792","toSide":"left"}
+	]
+}

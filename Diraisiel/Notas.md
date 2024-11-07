@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 ### To Do's:
-
+- [!] [[Curriculum]]
 
 ### Proyectos:
 - [ ] [[kaffe]]
