@@ -1,3 +1,15 @@
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - file.backlinks
+  - type: table
+    name: View
+    order:
+      - file.name
+      - file.size
+      - file.mtime
+    sort:
+      - property: file.size
+        direction: DESC
